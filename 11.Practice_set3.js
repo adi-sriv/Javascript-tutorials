@@ -20,3 +20,19 @@
 // it iterates over each key in the `obj` object and prints out the corresponding value (marks)
 // for each key (student name).
 
+//Problem 2
+// let cn = 47;
+// let i;
+// while (i != cn) {
+//   console.log("Try again");
+//   i = prompt("Enter a number : ");
+// }
+
+// console.log("Congratulations your number matches");
+
+//Problem 3
+const mean = (a,b,c,d) => {
+  return (a+b+c+d)/4
+};
+
+console.log("Mean of four numbers",mean(13,11,16,18))
